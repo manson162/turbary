@@ -30,9 +30,16 @@ html, body {
       background-color: #ffcc5c;
 }
 
-.container {
+#example1 {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(3, 5em);
     grid-gap: 3px;
+}
+
+#example2 {
+  display: grid;
+  grid-gap: 3px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 40px 40px;
 }
